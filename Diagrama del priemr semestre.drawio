@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram name="Página-1" id="Y_O9COzUH3tl3bQ9N7Jr">
+    <mxGraphModel dx="1019" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="swodBhb89oLaH99VP4T5-2" value="vehiculo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="230" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-3" value="+ patente: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-2">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-6" value="+ color: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-2">
+          <mxGeometry y="52" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-7" value="+ cilindrada: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-2">
+          <mxGeometry y="78" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-11" value="+ combustible: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-2">
+          <mxGeometry y="104" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#FF6392;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-2">
+          <mxGeometry y="130" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-5" value="+ encender(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-2">
+          <mxGeometry y="138" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-9" value="+ apagar(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-2">
+          <mxGeometry y="164" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-10" value="+ estaEncendido(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-2">
+          <mxGeometry y="190" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-12" value="+ repostar(litros: float, precioLt:int): float&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-2">
+          <mxGeometry y="216" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.438;exitY=0.706;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;endArrow=oval;endFill=1;" edge="1" parent="1" source="swodBhb89oLaH99VP4T5-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-13" value="david" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="500" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Diagrama de clases&lt;/h1&gt;&lt;p&gt;Un Diagrama de Clases es muy parecido a un Modelo Lógico/Físico de la BD. Su objetivo es mostrar, al igual que el plano de una casa, como debería estar construida la base de una aplicación programada.&lt;/p&gt;&lt;p&gt;-CLASE: es como una tabla de BD. Se pone en el espacio superior un nombre que represente los valores que contendrá (igual que lo harías en el modelo de base de datos).&lt;/p&gt;&lt;p&gt;-ATRIBUTOS: son equivalente a las columnas de una tabla en BD. Aquí podremos primero un símbolo de + seguido del nombre del atributo, dos puntos y el tipo de datos que guardará este atributo (String, int, float, bool, list, etc).&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;-Niveles de acceso: el signo ´indique que el atributo es publico. Podremos un - cuando queramos que el acceso sea privado.&lt;br&gt;&lt;br&gt;publico: indica que el atributo o método puede ser invocado dentro de la misma clase o en cualquier otro archivo de Python.&lt;/p&gt;&lt;p&gt;Privado: indica que el atributo o método es visible SOLAMENTE DENTRO de la Clase donde creó.&lt;/p&gt;&lt;p&gt;-METODOS: son la funciones que estarán divinidades DENTRO de la clase. Se debe indicar su nivel de acceso con el signo de + o -, el nombre del método, entre paréntesis los parámetros que recibe un : y al final el tipo de dato que retoma (void si no retoma)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-190" width="640" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-16" value="Cliente 1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-17" value="+ rut: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-16">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-20" value="+ nombre: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-16">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-16">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-19" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-16">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-22" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;entryX=0;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.011;exitY=0.28;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="swodBhb89oLaH99VP4T5-7" target="swodBhb89oLaH99VP4T5-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="470" as="sourcePoint" />
+            <mxPoint x="340" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-23" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" connectable="0" vertex="1" parent="swodBhb89oLaH99VP4T5-22">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-24" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" connectable="0" vertex="1" parent="swodBhb89oLaH99VP4T5-22">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-29" value="Loginformacíon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" vertex="1" parent="1">
+          <mxGeometry x="360" y="716" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-30" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-29">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-29">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-32" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#5AA9E6;" vertex="1" parent="swodBhb89oLaH99VP4T5-29">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Cardinalidades&lt;/h1&gt;&lt;p&gt;Al igual que en BD, aqui se diagrama tanto la cardinalidad maxima como la minima.&lt;/p&gt;&lt;p&gt;debes expresar la cardinalidad minima seguida por .. y despues la maxima&lt;/p&gt;&lt;p&gt;-Si ambas cardinalidades sin 1, escribe solo 1, no necesitar poner unn1..1.&lt;/p&gt;&lt;p&gt;-cuando tienes una relación muchos, debes usar el (*), no la letra n de BS.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="560" y="560" width="217" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="swodBhb89oLaH99VP4T5-35" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Relaciones&lt;/h1&gt;&lt;p&gt;Existen distintos tipos de relaciones entre las clases.&lt;br&gt;ASOCIACIÓN: significa que una clase &quot;conoce&quot; a otra y puede interactuar con ella. No hay una dependencia en del ciclo de vida entre ellas (o sea una puede no existir y no le afecta a la otra).&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Ejemplo: Cliente - Vehiculo en un RentACar. El vehiculo existe aunque no haya un cliente asociado.&lt;/p&gt;&lt;p&gt;AGREGACIÓN: relacion DÉBIL entre las clases. Esto significa que una clase CONTIENE a la otra, pero la clase contenida puede existir sola.&lt;/p&gt;&lt;p&gt;Ejemplo: Flota-Vehiculo. Podemos agregar una lista de vehiculos dentro de un FLOTA, pero si la flota se elomina , los vehiculos siguen existiendo&lt;/p&gt;&lt;p&gt;COMPOSICION: relacion FUERTE entre las clases. Esto esto significa que la clase conenida NO PUEDE EXITISTIR sin la que la contiene.&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Ejemplo:&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="710" height="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
